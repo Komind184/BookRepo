@@ -1,0 +1,39 @@
+{% extends 'store/base.html' %}
+{% load static %}
+{% block container %}
+<body style="background-color:#ad58a1">
+    <div class="jumbotron">
+        <h1>What We Are </h1>
+        <p style="font-size:25px">India's best news platform </p>
+       </div>
+       <section class="mb-4" id="aboutus" style="color:#181918">
+        <div class="py-5">
+           <h2 class="text-center">About Us</h2>
+        </div>
+        <div class="container-fluid">
+           <div class="row">
+              <div class="col-lg-6 col-md-6 col-12">
+                 <img src="{% static 'images/aboutus1.png' %}" class="img-fluid aboutimg" height="900px" width="900px">
+              </div>
+              
+              <div class="col-lg-6 col-md-6 col-12" style="font-size:30px">
+                 <h2 class="display-7">About the platform</h2>
+                 <p class="py-4" align="justify">
+                    Python is very famous because of its wide area of applications. One of the application of python is web development. Many frameworks of python are available for web development for example Django, Flask, Web2py, CherryPy etc. Django is very popular framework and huge acceptance in corporate industry.
+                 </p>
+                 
+                 <p class="py-2" align="justify">Connect with us on other platforms.</p>
+                 <div >
+                    <a href="https://www.facebook.com/" target="_blank"><img src="{% static 'images/fb.png' %}" class="logo" style="width: 60px; height: 60px !important;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/" target="_blank"><img src="{% static 'images/twitter.jpg' %}" class="logo" style="width: 60px; height: 60px !important;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://in.linkedin.com/" target="_blank"><img src="{% static 'images/link.png' %}" class="logo" style="width: 60px; height: 60px !important;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/" target="_blank"><img src="{% static 'images/insta.jpg' %}" class="logo" style="width: 60px; height: 60px !important;"></a>
+                    </div>
+              </div>
+            
+           </div>
+        </div>
+       </section><br><br><br><br><br><br><br><br><br><br><br>
+    
+</body>
+{% endblock %}
